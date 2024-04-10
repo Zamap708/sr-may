@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Hero() {
@@ -6,6 +7,8 @@ export default function Hero() {
     <div className="w-full h-screen flex flex-col items-center justify-center text-white text-center bg-cover bg-no-repeat bg-center after:content-[''] after:absolute after:top-0 after:left-0 after:w-screen after:h-screen after:block after:bg-black after:opacity-20"
     style={{ backgroundImage: "url('assets/hero-bg.jpg')" }}
     >
+      {/* <div className="flex justify-center items-center"> */}
+
       <div className="flex flex-col justify-center items-center gap-4 w-fit z-10">
 
         <h1 className="md:text-5xl md:pt-16 pt-10 font-fira">
@@ -35,6 +38,7 @@ export default function Hero() {
         Read more
       </button>
       </div>
+      {/* </div> */}
 
       
     </div>
